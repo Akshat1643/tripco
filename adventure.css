@@ -1,0 +1,514 @@
+::-webkit-scrollbar { 
+    display: none;
+  }
+  
+  .t-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+  }
+.popular-container-b{
+    width: 100%;
+    height: 65vh;
+    background-color:white;
+    margin-top: 8rem;
+    padding: 2rem;
+  }
+  .popular-main-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popular-heading-b{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular-heading-b h1{
+    font-size: 4.5rem;
+  }
+  .popular-heading-b h2{
+    font-size: 1.9rem;
+    color:  #B8B8B8;
+  }
+  
+  .popular-head-content-b{
+    width: 40%;
+    text-wrap: wrap;
+    font-size: 1.6rem;
+    color:  #B8B8B8;
+  }
+  .cards-container-b{
+    width: 100%;
+    height: 36vh;
+    background-color: #F5FFFD;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 3.5rem;
+    overflow-y: hidden;
+  }
+  .popular-card-container-b{
+    width: 17.2%;
+    height: 36vh;
+    /* background-color: blanchedalmond; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+  
+  }
+  .popular-container-b{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  }
+  .img-b{
+    width: 100%;
+    height: 75%;
+    background-color: aqua;
+    border-radius: 38px;
+    background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+    background-size: cover;
+  }
+  .card-content-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    padding-bottom: 2rem;
+    /* padding: 2.4px;
+    padding: 7px; */
+  
+  }
+  .card-content-b i
+  {
+  color: blue
+  }
+  
+  .offer-b{
+    position: absolute;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #F2F5F7;
+    padding: 13px;
+    top: 19px;
+    right: 13px;
+   background-image: url(https://imgs.search.brave.com/WpwVJBomHyMukne5O6ZtStsgggE_RiTu2Jk736xVpGg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWFpcnBsYW5lLWlj/b24tZG93bmxvYWQt/aW4tc3ZnLXBuZy1n/aWYtZmlsZS1mb3Jt/YXRzLS1hZXJvcGxh/bmUtcGxhbmUtZmxp/Z2h0LWZseS1zdW1t/ZXItcGFjay1ob2xp/ZGF5cy1pY29ucy0x/NTE2NTUucG5nP2Y9/d2VicCZ3PTEyOA);
+    background-size: cover;
+
+  }
+  @media (min-width:1160px) and (max-width:1440px) {
+    .hb-main-footer-b{
+      display: none;
+    }
+    .popular-container-b{
+      width: 100%;
+      height: 75vh;
+      background-color:white;
+      display: fle;
+      margin-top: 8rem;
+      padding: 2rem;
+    }
+    .popular-main-b{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .popular-heading-b{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      /* align-items: center; */
+    }
+    .popular-heading-b h1{
+      font-size: 3.7rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1.7rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-b{
+      width: 40%;
+      text-wrap: wrap;
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    .cards-container-b{
+      width: 100%;
+      height: 37vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-b{
+      width: 29.2%;
+      height: 36vh;
+      /* border: 2px dashed black; */
+    
+    }
+    .popular-container-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    }
+    .img-b{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+      padding: 2rem;
+    }
+    .card-content-b{
+      display: flex;
+      flex-direction: column;
+      font-size: 2.1rem;
+      padding: 2.4px;
+      padding: 7px;
+    
+    }
+    .card-content-b i
+    {
+    color: blue
+    }
+    
+    .offer-b{
+      position: absolute;
+      font-size: 1.3rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+    
+  }
+  @media (min-width:711px) and (max-width:1161px){
+    .hb-main-footer-b{
+      display: none;
+    }
+    .popular-container-b{
+      width: 100%;
+      height: 69vh;
+      background-color:white;
+      margin-top: 8rem;
+      padding: 2rem;
+    }
+    .popular-main-b{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 22px;
+    }
+    .popular-heading-b{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+    .popular-heading-b h1{
+      font-size: 3.2rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-b{
+      width: 89%;
+      text-wrap: wrap;
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    .cards-container-b{
+      width: 100%;
+      height: 36vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-b{
+      width: 44.2%;
+      height: 36vh;
+      /* background-color: blanchedalmond; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .popular-container-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .img-b{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+    }
+    .card-content-b{
+      display: flex;
+      flex-direction: column;
+      font-size: 2.1rem;
+      padding: 2.4px;
+      padding: 7px;
+    
+    }
+    .card-content-b i
+    {
+    color: blue
+    }
+    
+    .offer-b{
+      position: absolute;
+      font-size: 1.3rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+  
+  
+  
+  }
+  @media (min-width:468px) and (max-width:710px){
+    .hb-main-footer-b{
+      display: none;
+    }
+    .popular-container-b{
+      width: 100%;
+      height: 69vh;
+      background-color:white;
+      margin-top: 8rem;
+      padding: 2rem;
+    }
+    .popular-main-b{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 22px;
+    }
+    .popular-heading-b{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      /* align-items: center; */
+    }
+    .popular-heading-b h1{
+      font-size: 3.2rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-b{
+      width: 89%;
+      text-wrap: wrap;
+      font-size: 1rem;
+      color:  #B8B8B8;
+    }
+    .cards-container-b{
+      width: 100%;
+      height: 36vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-b{
+      width: 89.2%;
+      height: 36vh;
+      /* background-color: blanchedalmond; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .popular-container-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .img-b{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+    }
+    .card-content-b{
+      display: flex;
+      flex-direction: column;
+      font-size: 2.1rem;
+      padding: 2.4px;
+      padding: 7px;
+    
+    }
+    .card-content-b i
+    {
+    color: blue
+    }
+    
+    .offer-b{
+      position: absolute;
+      font-size: 1.3rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+  
+  
+  
+  }
+  @media (min-width:360px) and (max-width:460px){
+    .hb-main-footer-b{
+      display: none;
+    }
+    .popular-container-b{
+      width: 100%;
+      height: 69vh;
+      background-color:white;
+      margin-top: 8rem;
+      padding: 1rem;
+    }
+    .popular-main-b{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      gap: 22px;
+    }
+    .popular-heading-b{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      /* align-items: center; */
+    }
+    .popular-heading-b h1{
+      font-size: 2.9rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1.0rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-b{
+      width: 89%;
+      text-wrap: wrap;
+      font-size: .8rem;
+      color:  #B8B8B8;
+    }
+    .cards-container-b{
+      width: 100%;
+      height: 36vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-b{
+      width: 89.2%;
+      height: 36vh;
+      /* background-color: blanchedalmond; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .popular-container-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .img-b{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+    }
+    .card-content-b{
+      display: flex;
+      flex-direction: column;
+      font-size: 2.1rem;
+      padding: 2.4px;
+      padding: 7px;
+    
+    }
+    .card-content-b i
+    {
+    color: blue
+    }
+    
+    .offer-b{
+      position: absolute;
+      font-size: 1.3rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+  
+  
+  
+  }
+  
+  @media (min-width:578px) and (max-width:750px){
+    
+    .hb-main-footer-b {
+      width: 85%;
+      height: 40vh;
+      background-color: #FFFFFF;
+      position: absolute;
+      bottom: -7rem;
+      left: 8%;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 15px 18px 25px gray;
+    }
+    .hb-main-footer-b{
+      display: none;
+    }
+  }

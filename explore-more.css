@@ -1,0 +1,540 @@
+.t-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.popular-container-c{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    margin-top: 8rem;
+    padding: 2rem;
+  }
+  .bottom{
+    display: flex
+    ;
+        align-items: center;
+        justify-content: space-between;
+    }
+  .popular-main-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popular-heading-c{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* align-items: center; */
+  }
+  .popular-heading-c h1{
+    font-size: 3.7rem;
+  }
+  .popular-c h2{
+    font-size: 1.5rem;
+    color:  #B8B8B8;
+  }
+  
+  .popular-head-content-c{
+    width: 40%;
+    text-wrap: wrap;
+    font-size: 1.6rem;
+    color:  #B8B8B8;
+  }
+  .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 5vh;
+    
+  }
+  .list ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.95rem;
+    align-items: center;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .list ul button{
+    font-size: 1.2rem;
+    padding: 11px 19px;
+    border-radius: 10px;
+    border: none;
+  }
+  .filter{
+    font-size: 1.2rem;
+    padding: 11px 19px;
+    border-radius: 10px;
+    border: none;
+  }
+  .cards-container-c{
+    width: 100%;
+    height: 36vh;
+    background-color: #F5FFFD;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 3.5rem;
+    overflow-y: hidden;
+  }
+  .popular-card-container-c{
+    width: 28%;
+    height: 36vh;
+    /* background-color: blanchedalmond; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .popular-container-c{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  .img-c{
+    width: 100%;
+    height: 75%;
+    background-color: aqua;
+    border-radius: 38px;
+    background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+    background-size: cover;
+  }
+  .card-content-c{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    padding: 2.4px;
+    padding: 7px;
+  
+  }
+  .card-content-c i
+  {
+  color: #6cd7f8;
+  }
+  
+  .offer-c{
+    position: absolute;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #F2F5F7;
+    padding: 13px;
+    top: 19px;
+    right: 13px;
+  }
+  .cnt-c{
+    color: #DCDBDF;
+    font-size: 1.5rem;
+  }
+  .price span{
+    font-size: 1.4rem;
+  }
+  @media (min-width:1162px) and (max-width:1440px) {
+    .popular-container-c{
+      width: 100%;
+      height: 120vh;
+      background-color:white;
+      margin-top: 8rem;
+      padding: 2rem;
+    }
+    .bottom{
+      display: flex
+      ;
+          align-items: center;
+          justify-content: space-between;
+      }
+    .popular-main-c{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .popular-heading-c{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      /* align-items: center; */
+    }
+    .popular-heading-c h1{
+      font-size: 2.7rem;
+    }
+    .popular-c h2{
+      font-size: 1.5rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-c{
+      width: 40%;
+      text-wrap: wrap;
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    .list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width:100%;
+      height: 5vh;
+      
+    }
+    .list ul{
+      display: flex;
+      /* justify-content: space-between; */
+      justify-content: unset;
+      gap: .95rem;
+      align-items: center;
+      font-size: 1rem;
+      flex-wrap: wrap;
+      width: 80%;
+    }
+    .list ul button{
+      font-size: 1rem;
+      padding: 11px 19px;
+      border-radius: 10px;
+      border: none;
+    }
+    .filter{
+      font-size: 1.2rem;
+      padding: 11px 19px;
+      border-radius: 10px;
+      border: none;
+    }
+    .cards-container-c{
+      width: 100%;
+      height: 36vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-c{
+      width: 28%;
+      height: 36vh;
+      /* background-color: blanchedalmond; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .popular-container-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .img-c{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+    }
+    .card-content-c{
+      display: flex;
+      flex-direction: column;
+      font-size: 1.4rem;
+      padding: unset;
+      /* padding: 7px; */
+    
+    }
+    .card-content-c i
+    {
+    color: #6cd7f8;
+    }
+    
+    .offer-c{
+      position: absolute;
+      font-size: 1.3rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+    .cnt-c{
+      color: #DCDBDF;
+      font-size: 1.2rem;
+    }
+    .price span{
+      font-size: 1.2rem;
+    }
+  }
+  @media (min-width:590px) and (max-width:1161px){
+    .hb-main-footer-c{
+      display: none;
+    }
+    .popular-container-c{
+      width: 100%;
+      height: 138vh;
+      background-color:white;
+      margin-top: 8rem;
+      padding: 2rem;
+    }
+    .popular-main-c{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 22px;
+    }
+    .cnt-c{
+      font-size: 1rem;
+    }
+    .offer-c{
+      font-size: .8rem;
+    }
+    .price span{
+      font-size: .9rem;
+    }
+    .popular-heading-c{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+    .popular-heading-c h1{
+      font-size: 3.2rem;
+    }
+    .popular-heading-c h2{
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-c{
+      width: 89%;
+      text-wrap: wrap;
+      font-size: 1.2rem;
+      color:  #B8B8B8;
+    }
+    .cards-container-c{
+      width: 100%;
+      height: 36vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-c{
+      width: 44.2%;
+      height: 36vh;
+      /* background-color: blanchedalmond; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .popular-container-c{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-evenly;
+    }
+    .img-c{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+    }
+    .card-content-c{
+      display: flex;
+      flex-direction: column;
+      font-size: 1.1rem;
+      padding: 2.4px;
+      padding: 7px;
+    
+    }
+    .card-content-c i
+    {
+    color: blue
+    }
+    
+    .offer-c{
+      position: absolute;
+      font-size: .9rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+    .list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width:100%;
+      height: 5vh;
+      
+    }
+    .list ul{
+      display: flex;
+      justify-content: unset;
+      gap: 1rem;
+      align-items: center;
+      font-size: .3rem;
+      flex-wrap: wrap;
+      width: 80%;
+    }
+    .list ul button{
+      font-size: .7rem;
+      padding: 11px 19px;
+      border-radius: 10px;
+      border: none;
+    }
+    .filter{
+      font-size: .7rem;
+      padding: 11px 19px;
+      border-radius: 10px;
+      border: none;
+    }
+  
+  
+  }
+  @media (min-width:360px) and (max-width:589px){
+    .hb-main-footer-c{
+      display: none;
+    }
+    .br{
+      display: none;
+    }
+    .t-wrapper{
+      width: 100%;
+    }
+    .popular-container-c{
+      width: 100%;
+      height: 171vh;
+      background-color:white;
+      margin-top: 8rem;
+      padding: 2rem;
+      align-items: center;
+    }
+    .popular-main-c{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 22px;
+    }
+    .popular-heading-c{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+    .popular-heading-c h1{
+      font-size: 1.4rem;
+    }
+    .popular-heading-c h2{
+      font-size: 1.0rem;
+      color:  #B8B8B8;
+    }
+    
+    .popular-head-content-c{
+      width: 89%;
+      text-wrap: wrap;
+      font-size: .8rem;
+      color:  #B8B8B8;
+    }
+    .cards-container-c{
+      width: 100%;
+      height: 36vh;
+      background-color: #F5FFFD;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+      gap: 3.5rem;
+      overflow-y: hidden;
+    }
+    .popular-card-container-c{
+      width: 89.2%;
+      height: 36vh;
+      /* background-color: blanchedalmond; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .popular-container-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .img-c{
+      width: 100%;
+      height: 75%;
+      background-color: aqua;
+      border-radius: 38px;
+      background-image: url(https://imgs.search.brave.com/q7SU7ahG0k0fPUYVjRhR0ta0dqq0IAI-x8BZaLh41x8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFyaXNwZXJmZWN0/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLHdpZHRo/PTEyNTYvaHR0cHM6/Ly93d3cucGFyaXNw/ZXJmZWN0LmNvbS9n/L3Bob3Rvcy91cGxv/YWQvc21sXzk4ODU4/Mzc5LTE0NDQ5OTE5/MzMtRkEtODUwNTUw/MzEtZWlmZmVsLXRv/d2VyLXNlaW5lLWhl/cm8uanBn);
+      background-size: cover;
+    }
+    .card-content-c{
+      display: flex;
+      flex-direction: column;
+      font-size: 1.1rem;
+      /* padding: 2.4px; */
+      padding: 7px;
+    
+    }
+    .card-content-c i
+    {
+    color: blue
+    }
+    
+    .offer-c{
+      position: absolute;
+      font-size: .8rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F5F7;
+      padding: 13px;
+      top: 19px;
+      right: 13px;
+    }
+    .list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width:100%;
+      height: 5vh;
+      
+    }
+    .list ul{
+      display: flex;
+      justify-content: unset;
+      gap: 1rem;
+      align-items: center;
+      font-size: .3rem;
+      /* flex-wrap: unset; */
+      width: 80%;
+    }
+    .list ul button{
+      font-size: .7rem;
+      padding: 11px 19px;
+      border-radius: 10px;
+      border: none;
+    }
+    .filter{
+      font-size: .7rem;
+      padding: 11px 19px;
+      border-radius: 10px;
+      border: none;
+    }
+    .cnt-c{
+      font-size: 1rem;
+    }
+  
+  
+  
+  }

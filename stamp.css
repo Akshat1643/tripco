@@ -1,0 +1,189 @@
+::-webkit-scrollbar { 
+    display: none;
+  }
+  
+  .t-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+  }
+.popular-container-b{
+    width: 100%;
+    height: 65vh;
+    background-color:white;
+    margin-top: 8rem;
+    padding: 2rem;
+  }
+  .popular-main-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popular-heading-b{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular-heading-b h1{
+    font-size: 3.5rem;
+  }
+  .popular-heading-b h2{
+    font-size: 1.9rem;
+    color:  #B8B8B8;
+  }
+  
+  .popular-head-content-b{
+    width: 40%;
+    text-wrap: wrap;
+    font-size: 1.6rem;
+    color:  #B8B8B8;
+  }
+  .cards-container-b{
+    width: 100%;
+    height: 39vh;
+    background-color: #F5FFFD;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 5.5rem;
+    overflow-y: hidden;
+  }
+  .popular-card-container-b{
+    width: 21.2%;
+    height: 35vh;
+    /* background-color: blanchedalmond; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 2px dashed black;
+    flex-shrink: 0;
+  
+  }
+  .popular-container-b{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  }
+  .img-b{
+    width: 100%;
+    height: 77%;
+    /* background-color: aqua; */
+    background-image: url(https://imgs.search.brave.com/tMkqtgKtOs3WdabZI00hmGwmX2pX4B64whkxDj09OwM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzU5LzY4LzAw/LzM2MF9GXzc1OTY4/MDA1NV90Mmo5Yjg5/ZVR5dWtVVW5wZnpK/SVhRRnBQdmV0N0sz/Ri5qcGc);
+    background-size: cover;
+    border-radius: 38px;
+    background-size: cover;
+  }
+  .card-content-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    padding-bottom: 2rem;
+    /* padding: 2.4px;
+    padding: 7px; */
+  
+  }
+  .card-content-b i
+  {
+  color: blue
+  }
+  
+  .offer-b{
+    position: absolute;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    border: none;
+    background-color: #F2F5F7;
+    padding: 13px;
+    top: 5px;
+    /* right: 13px; */
+    left: 8px;
+    background-image: url(https://imgs.search.brave.com/WpwVJBomHyMukne5O6ZtStsgggE_RiTu2Jk736xVpGg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWFpcnBsYW5lLWlj/b24tZG93bmxvYWQt/aW4tc3ZnLXBuZy1n/aWYtZmlsZS1mb3Jt/YXRzLS1hZXJvcGxh/bmUtcGxhbmUtZmxp/Z2h0LWZseS1zdW1t/ZXItcGFjay1ob2xp/ZGF5cy1pY29ucy0x/NTE2NTUucG5nP2Y9/d2VicCZ3PTEyOA);
+    background-size: cover;
+
+  }
+  @media (min-width:1024px) and (max-width:1440px){
+    .popular-heading-b h1{
+      font-size: 2.7rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1.4rem;
+    }
+    .cards-container-b{
+      gap: 7%;
+    }
+    .popular-card-container-b{
+      width: 27.2%;    
+    }
+    .offer-b{
+      width: 60px;
+      height: 60px;
+    }
+    .card-content-b{
+      padding: 1rem;
+      font-size: 1.9rem;
+    }
+
+  }
+  @media (min-width:520px) and (max-width:1023px){
+    .popular-heading-b h1{
+      font-size: 2.4rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1.4rem;
+    }
+    .popular-container-b {
+      padding: unset;
+  }
+    .cards-container-b{
+      gap: 7%;
+    }
+    .popular-card-container-b{
+      width: 43.2%;    
+    }
+    .offer-b{
+      width: 50px;
+      height: 50px;
+    }
+    .card-content-b{
+      padding: 1rem;
+      font-size: 1.7rem;
+    }
+
+
+  }
+  @media (min-width:360px) and (max-width:519px){
+    .popular-heading-b h1{
+      font-size: 1.4rem;
+    }
+    .popular-heading-b h2{
+      font-size: 1rem;
+    }
+    .popular-container-b {
+      padding: unset;
+  }
+    .cards-container-b{
+      gap: 7%;
+    }
+    .popular-card-container-b{
+      width: 94.2%;    
+    }
+    .offer-b{
+      width: 50px;
+      height: 50px;
+    }
+    .card-content-b{
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+
+
+  }
+
