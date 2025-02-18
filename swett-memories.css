@@ -371,7 +371,7 @@
       .phone{
         margin-top: 10.8%;
         width: 48vw;
-        height: 44vh;
+        height: 54vh;
         background-color: blue;
         background-image: url(https://imgs.search.brave.com/fNkUcCzuiXEXdZn3R8zKEw99X56V45b8_Rc7IvOguOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/bWFuLWhpa2luZy1p/bi1tb3VudGFpbnMu/anBnP3dpZHRoPTEw/MDAmZm9ybWF0PXBq/cGcmZXhpZj0wJmlw/dGM9MA);
         background-size: cover;
@@ -393,7 +393,7 @@
         /* background-color: rgb(207, 30, 30); */
         position: absolute; 
         top: 40%;
-        right: -14%;
+        right: -32%;
         border-radius: 10px;
       }
       .pop-up-c{
@@ -443,8 +443,8 @@
 @media (min-width:433px) and (max-width:511px){
     .phone{
         margin-top: 18.8%;
-        width: 37vw;
-        height: 57vh;
+        width: 64vw;
+        height: 51vh;
         background-color: blue;
         border-radius: 40px;
         position: relative;
@@ -454,6 +454,8 @@
       }
       .right{
         /* justify-content: unset; */
+        width:80vw;
+
         align-items: center;
       }
       .parent-div{
@@ -481,8 +483,8 @@
       }
       .phone{
         margin-top: 10.8%;
-        width: 48vw;
-        height: 44vh;
+        width: 64vw;
+        height: 51vh;
         background-color: blue;
         background-image: url(https://imgs.search.brave.com/fNkUcCzuiXEXdZn3R8zKEw99X56V45b8_Rc7IvOguOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/bWFuLWhpa2luZy1p/bi1tb3VudGFpbnMu/anBnP3dpZHRoPTEw/MDAmZm9ybWF0PXBq/cGcmZXhpZj0wJmlw/dGM9MA);
         background-size: cover;
@@ -495,7 +497,7 @@
         /* background-color: black; */
         position: absolute;
         top: 16%;
-        left: -45%;
+        left: -21%;
         border-radius: 10px;
       }
       .pop-up-b{
@@ -504,7 +506,7 @@
         /* background-color: rgb(207, 30, 30); */
         position: absolute; 
         top: 40%;
-        right: -44%;
+        right: -19%;
         border-radius: 10px;
       }
       .pop-up-c{
@@ -513,7 +515,7 @@
         /* background-color: rgb(201, 96, 16); */
         position: absolute;
         bottom: 16%;
-        left: -45%;
+        left: -21%;
         border-radius: 10px;
         
       }
@@ -561,7 +563,8 @@
         height: 100vh;
       }
       .right{
-        justify-content: unset;
+        /* justify-content: unset; */
+        width: 80vw;
       }
       .parent-div{
         width:  100%;
@@ -592,8 +595,8 @@
       }
       .phone{
         margin-top: 10.8%;
-        width: 53vw;
-        height: 41vh;
+        width: 69vw;
+        height: 49vh;
         background-color: blue;
         background-image: url(https://imgs.search.brave.com/fNkUcCzuiXEXdZn3R8zKEw99X56V45b8_Rc7IvOguOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/bWFuLWhpa2luZy1p/bi1tb3VudGFpbnMu/anBnP3dpZHRoPTEw/MDAmZm9ybWF0PXBq/cGcmZXhpZj0wJmlw/dGM9MA);
         background-size: cover;
@@ -606,7 +609,7 @@
         /* background-color: black; */
         position: absolute;
         top: 16%;
-        left: -43%;
+        left: -17%;
         border-radius: 10px;
       }
       .pop-up-b{
@@ -615,7 +618,7 @@
         /* background-color: rgb(207, 30, 30); */
         position: absolute; 
         top: 40%;
-        right: -44%;
+        right: -17%;
         border-radius: 10px;
       }
       .pop-up-c{
@@ -624,7 +627,7 @@
         /* background-color: rgb(201, 96, 16); */
         position: absolute;
         bottom: 16%;
-        left: -43%;
+        left: -17%;
         border-radius: 10px;
         
       }

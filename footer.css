@@ -68,7 +68,7 @@
         display: flex;
         flex-direction: column;
         /* justify-content: space-around; */
-        gap: 1rem;
+        gap: 1.2rem;
         font-size: 1.5rem;
 
 }
@@ -106,7 +106,7 @@
 }
 .send-b{
     position: absolute;
-    top: 130.2px;
+    top: 139.2px;
     right: 18px;
 
 }
@@ -182,6 +182,11 @@
     }
     .about-h i{
         display: none;
+    }
+    .search-b {
+        width: 100%;
+        height: 2rem;
+        position: relative;
     }
     
 }
@@ -279,5 +284,10 @@
     }
     .about-h i{
         display: none;
+    }
+    .search-b {
+        width: 100%;
+        height: 2rem;
+        position: relative;
     }
 }
