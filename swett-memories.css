@@ -145,17 +145,17 @@
     font-size: 1rem; padding: 8px 20px;border-radius: 10px;
   }
   .span-a{
-    font-size: 2.5rem;font-weight: 300;
+    font-size: 2rem;font-weight: 300;
   }
   .span-b{
-    font-size: 1.3rem; color: #C7C9CC;
+    font-size: 1rem; color: #C7C9CC;
   }
   .span-heading{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 800;
   }
   .span-content{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #C7C9CC;
   }
 @media (min-width:900px) and (max-width:1440px){

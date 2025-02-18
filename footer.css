@@ -70,6 +70,7 @@
         /* justify-content: space-around; */
         gap: 1.2rem;
         font-size: 1.5rem;
+        position: relative;
 
 }
 .zm-list-a input{
@@ -80,7 +81,6 @@
     font-size: 1.3rem;
     background-color: rgb(85, 193, 214);
     color: white;
-    
     border: none;
     padding: 6px;
     /* position: absolute;
@@ -102,12 +102,12 @@
 .search-b{
     width: 100%;
     height: 2.5rem;
-    position: relative;
+   
 }
 .send-b{
     position: absolute;
-    top: 139.2px;
-    right: 18px;
+    top: 52%;
+    right: 0%;
 
 }
 @media (min-width:768px) and (max-width:1440px){

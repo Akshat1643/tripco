@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 2560px;
+  /* max-width: 1450px; */
 }
 ::-webkit-scrollbar { 
   display: none;
@@ -180,12 +180,12 @@
 }
 /* Footer */
 .hb-main-footer {
-  width: 85%;
+  width: 91%;
   height: 18vh;
   background-color: #FFFFFF;
   position: absolute;
   bottom: -2rem;
-  left: 8%;
+  left: 5%;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -199,12 +199,12 @@
   justify-content: space-between;
   align-items: center;
   gap: 27%;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: #B8B8B8;
 }
 
 .section-last {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: #B8B8B8;
 }
 
@@ -249,7 +249,7 @@
 .search-field {
   display: flex;
   justify-content: space-between;
-  gap: 3.9rem;
+  gap: 1.9rem;
 }
 
 .hb-main-c {
@@ -261,7 +261,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .search-item-a span {
@@ -269,7 +269,7 @@
 }
 
 .search-item-a button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px 31px 10px 2px;
   border-radius: 15px;
   background-color: #F8F8F8;
@@ -281,10 +281,10 @@
 }
 
 .search-button button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 12px 20px;
   width: 13rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   background-color: #1CA9C4;
   border-radius: 15px;
   border: none;
@@ -1015,7 +1015,7 @@
   width: 100%;
   height: 65vh;
   background-color:white;
-  margin-top: 1rem;
+  margin-top: 5rem;
   padding: 2rem;
 }
 .popular-main{
@@ -1030,17 +1030,17 @@
   /* align-items: center; */
 }
 .popular-heading h1{
-  font-size: 3.7rem;
+  font-size: 3rem;
 }
 .popular-heading h2{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color:  #B8B8B8;
 }
 
 .popular-head-content{
   width: 40%;
   text-wrap: wrap;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color:  #B8B8B8;
 }
 .cards-container{
@@ -1054,7 +1054,7 @@
   overflow-y: hidden;
 }
 .popular-card-container{
-  width: 23.2%;
+  width: 22.2%;
   height: 100%;
   /* background-color: blanchedalmond; */
   position: relative;
@@ -1065,7 +1065,7 @@
 }
 .cnt{
   color: #D0D0D0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .cnt i{
   color: #8EEAFD;
@@ -1087,7 +1087,7 @@ justify-content: space-evenly;
   display: flex;
   flex-direction: column;
   gap: .7rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding: 2.4px;
   padding: 7px;
 
@@ -1099,7 +1099,7 @@ color:#8EEAFD
 
 .offer{
   position: absolute;
-  font-size: 1.3rem;
+  font-size: 1rem;
   border-radius: 10px;
   border: none;
   background-color: #F2F5F7;
