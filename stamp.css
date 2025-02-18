@@ -42,7 +42,7 @@
   }
   .cards-container-b{
     width: 100%;
-    height: 39vh;
+    height: 43vh;
     background-color: #F5FFFD;
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@
     overflow-y: hidden;
   }
   .popular-card-container-b{
-    width: 21.2%;
+    width: 19.7%;
     height: 35vh;
     /* background-color: blanchedalmond; */
     position: relative;
@@ -61,6 +61,8 @@
     padding: 1rem;
     border: 2px dashed black;
     flex-shrink: 0;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
   
   }
   .popular-container-b{
@@ -83,7 +85,8 @@
     justify-content: center;
     align-items: center;
     font-size: 2.1rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
+    letter-spacing: 1rem;
     /* padding: 2.4px;
     padding: 7px; */
   
@@ -102,9 +105,9 @@
     border: none;
     background-color: #F2F5F7;
     padding: 13px;
-    top: 5px;
+    top: -12px;
     /* right: 13px; */
-    left: 8px;
+    left: -22px;
     background-image: url(https://imgs.search.brave.com/WpwVJBomHyMukne5O6ZtStsgggE_RiTu2Jk736xVpGg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWFpcnBsYW5lLWlj/b24tZG93bmxvYWQt/aW4tc3ZnLXBuZy1n/aWYtZmlsZS1mb3Jt/YXRzLS1hZXJvcGxh/bmUtcGxhbmUtZmxp/Z2h0LWZseS1zdW1t/ZXItcGFjay1ob2xp/ZGF5cy1pY29ucy0x/NTE2NTUucG5nP2Y9/d2VicCZ3PTEyOA);
     background-size: cover;
 
@@ -120,7 +123,7 @@
       gap: 7%;
     }
     .popular-card-container-b{
-      width: 27.2%;    
+      width: 26.2%;    
     }
     .offer-b{
       width: 60px;
@@ -146,7 +149,7 @@
       gap: 7%;
     }
     .popular-card-container-b{
-      width: 43.2%;    
+      width: 41.2%;    
     }
     .offer-b{
       width: 50px;
@@ -173,7 +176,7 @@
       gap: 7%;
     }
     .popular-card-container-b{
-      width: 94.2%;    
+      width: 90%;    
     }
     .offer-b{
       width: 50px;

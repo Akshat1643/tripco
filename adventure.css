@@ -79,6 +79,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* letter-spacing: 3rem; */
     font-size: 2.1rem;
     padding-bottom: 2rem;
     /* padding: 2.4px;
@@ -105,6 +106,9 @@
     background-size: cover;
 
   }
+  /* .cnt-b{
+    letter-spacing: 1rem;
+  } */
   @media (min-width:1160px) and (max-width:1440px) {
     .hb-main-footer-b{
       display: none;

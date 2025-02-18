@@ -176,7 +176,7 @@
         /* background-color: black; */
         position: absolute;
         top: 16%;
-        left: -22%;
+        left: -45%;
         border-radius: 10px;
       }
       .pop-up-b{
@@ -185,7 +185,7 @@
         /* background-color: rgb(207, 30, 30); */
         position: absolute; 
         top: 40%;
-        right: -22%;
+        right: -35%;
         border-radius: 10px;
       }
       .pop-up-c{
@@ -194,7 +194,7 @@
         /* background-color: rgb(201, 96, 16); */
         position: absolute;
         bottom: 16%;
-        left: -22%;
+        left: -45%;
         border-radius: 10px;
         
       }
@@ -216,21 +216,22 @@
 @media (min-width:768px) and (max-width:899px){
   .phone{
       margin-top: 18.8%;
-      width: 37vw;
-      height: 57vh;
+      width: 39vw;
+      height: 51vh;
       background-color: blue;
       border-radius: 40px;
       position: relative;
     }
     .sweet-container{
-      height: 115vh;
+      height: 119vh;
     }
     .right{
-      justify-content: unset;
+      /* justify-content: unset; */
+      align-items: center;
     }
     .parent-div{
       width:  100%;
-      height: 111vh;
+      height: 116vh;
       /* background-color: black; */
       display: flex;
       flex-direction: column;
@@ -238,24 +239,26 @@
     }
     .left{
       width: 50vw;
-      height: 103vh;
+      height: 100vh;
       /* background-color: aqua; */
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 1rem;
+      padding-top: 2rem;
     }
     .left{
       padding-left: unset;
     }
     .travel-content-a{
       padding-left: unset;
+      align-items: center;
     }
     .phone{
       margin-top: 10.8%;
-      width: 48vw;
-      height: 44vh;
+      width: 39vw;
+      height: 51vh;
       background-color: blue;
       background-image: url(https://imgs.search.brave.com/fNkUcCzuiXEXdZn3R8zKEw99X56V45b8_Rc7IvOguOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/bWFuLWhpa2luZy1p/bi1tb3VudGFpbnMu/anBnP3dpZHRoPTEw/MDAmZm9ybWF0PXBq/cGcmZXhpZj0wJmlw/dGM9MA);
       background-size: cover;
@@ -268,7 +271,7 @@
       /* background-color: black; */
       position: absolute;
       top: 16%;
-      left: -26%;
+      left: -45%;
       border-radius: 10px;
     }
     .pop-up-b{
@@ -277,7 +280,7 @@
       /* background-color: rgb(207, 30, 30); */
       position: absolute; 
       top: 40%;
-      right: -14%;
+      right: -40%;
       border-radius: 10px;
     }
     .pop-up-c{
@@ -286,7 +289,7 @@
       /* background-color: rgb(201, 96, 16); */
       position: absolute;
       bottom: 16%;
-      left: -26%;
+      left: -45%;
       border-radius: 10px;
       
     }
@@ -296,7 +299,7 @@
     .travel-content-a{
     
       gap: 1rem;
-      align-items: flex-start;
+      /* align-items: flex-start; */
     
       text-wrap: wrap;
       width:100% ;
@@ -334,10 +337,11 @@
         position: relative;
       }
       .sweet-container{
-        height: 115vh;
+        height: 119vh;
       }
       .right{
-        justify-content: unset;
+        /* justify-content: unset; */
+        align-items: center;
       }
       .parent-div{
         width:  100%;
@@ -359,6 +363,7 @@
       }
       .left{
         padding-left: unset;
+        padding-top: 2rem;
       }
       .travel-content-a{
         padding-left: unset;
@@ -407,7 +412,7 @@
       .travel-content-a{
       
         gap: 1rem;
-        align-items: flex-start;
+        align-items: center;
       
         text-wrap: wrap;
         width:100% ;
@@ -425,7 +430,7 @@
       }
       .span-b{
         font-size: 1rem; color: #C7C9CC;
-        width: 50%;
+        width: 80%;
       }
       .span-heading{
         font-size: 1.7rem;
@@ -445,10 +450,11 @@
         position: relative;
       }
       .sweet-container{
-        height: 126vh;
+        height: 113vh;
       }
       .right{
-        justify-content: unset;
+        /* justify-content: unset; */
+        align-items: center;
       }
       .parent-div{
         width:  100%;
@@ -465,6 +471,7 @@
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        padding-top: 2rem;
       }
       .left{
         padding-left: unset;
@@ -488,7 +495,7 @@
         /* background-color: black; */
         position: absolute;
         top: 16%;
-        left: -26%;
+        left: -45%;
         border-radius: 10px;
       }
       .pop-up-b{
@@ -497,7 +504,7 @@
         /* background-color: rgb(207, 30, 30); */
         position: absolute; 
         top: 40%;
-        right: -14%;
+        right: -44%;
         border-radius: 10px;
       }
       .pop-up-c{
@@ -506,7 +513,7 @@
         /* background-color: rgb(201, 96, 16); */
         position: absolute;
         bottom: 16%;
-        left: -26%;
+        left: -45%;
         border-radius: 10px;
         
       }
@@ -516,22 +523,22 @@
       .travel-content-a{
       
         gap: 1rem;
-        align-items: flex-start;
+        align-items: center;
       
         text-wrap: wrap;
         width:100% ;
         font-size: 1.4rem;
       }
       .sweet-button button{
-        font-size: 1rem;
+        font-size: .8rem;
       }
       .span-a{
-        font-size: 1.5rem;font-weight: 300;
+        font-size: 1.11rem;font-weight: 300;
 
       }
       .span-b{
         font-size: 1rem; color: #C7C9CC;
-        width: 50%;
+        width: 80%;
       }
       .span-heading{
         font-size: 1.7rem;
@@ -551,7 +558,7 @@
         position: relative;
       }
       .sweet-container{
-        height: 126vh;
+        height: 100vh;
       }
       .right{
         justify-content: unset;
@@ -568,9 +575,11 @@
         width: 50vw;
         height: 103vh;
         /* background-color: aqua; */
+        align-items: center;
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        padding-top: 2rem;
       }
       .left{
         padding-left: unset;
@@ -583,8 +592,8 @@
       }
       .phone{
         margin-top: 10.8%;
-        width: 48vw;
-        height: 44vh;
+        width: 53vw;
+        height: 41vh;
         background-color: blue;
         background-image: url(https://imgs.search.brave.com/fNkUcCzuiXEXdZn3R8zKEw99X56V45b8_Rc7IvOguOY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/bWFuLWhpa2luZy1p/bi1tb3VudGFpbnMu/anBnP3dpZHRoPTEw/MDAmZm9ybWF0PXBq/cGcmZXhpZj0wJmlw/dGM9MA);
         background-size: cover;
@@ -597,7 +606,7 @@
         /* background-color: black; */
         position: absolute;
         top: 16%;
-        left: -26%;
+        left: -43%;
         border-radius: 10px;
       }
       .pop-up-b{
@@ -606,7 +615,7 @@
         /* background-color: rgb(207, 30, 30); */
         position: absolute; 
         top: 40%;
-        right: -14%;
+        right: -44%;
         border-radius: 10px;
       }
       .pop-up-c{
@@ -615,7 +624,7 @@
         /* background-color: rgb(201, 96, 16); */
         position: absolute;
         bottom: 16%;
-        left: -26%;
+        left: -43%;
         border-radius: 10px;
         
       }
@@ -630,7 +639,7 @@
       .travel-content-a{
       
         gap: 1rem;
-        align-items: flex-start;
+        align-items: center;
       
         text-wrap: wrap;
         width:100% ;
@@ -646,12 +655,12 @@
       }
      
       .span-a{
-        font-size: 1.2rem;font-weight: 300;
+        font-size: 1rem;font-weight: 300;
 
       }
       .span-b{
-        font-size: 1rem; color: #C7C9CC;
-        width: 50%;
+        font-size: .8rem; color: #C7C9CC;
+        width: 70%;
       }
       .span-heading{
         font-size: 1.4rem;
